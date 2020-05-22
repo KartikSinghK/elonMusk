@@ -1,0 +1,59 @@
+body {
+    background: url(https://images.axios.com/MLwLcdlNcz-vsMnUONTUilt4obM=/0x371:5760x3611/1920x1080/2018/08/29/1535546589465.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+    margin:0;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+}
+#links{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    
+}
+#links .inLinks, #logo{
+    padding: 8px 15px;
+    list-style: none;
+    text-transform:uppercase;
+}
+#links .inLinks a {
+    text-decoration:none;
+    color:white;
+    font-family: 'Work Sans', sans-serif;
+}
+.inLinks{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#logo{
+    width: 40px;
+    height:auto;
+}
+#introPage{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+
+}
+#elonName{
+    text-transform:uppercase;
+    font-size: 12.5em;
+    font-weight:900;
+    padding-top: 150px;
+    margin-bottom:0px;
+}
+#quote{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-top:0;
+    letter-spacing: 3.5px;
+}
